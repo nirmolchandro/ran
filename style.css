@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+    line-height: 24px;
+}
+h2{
+    width: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/****code start****/
+/*****Header section stard*****/
+.header-section{
+    width: 100%;
+    background: url("../img/home.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.manu{
+	width: 100%;
+}
+.manu .bg-light{
+    background: transparent !important;
+}
+.manu .fa .fas {
+    font-weight: 900;
+    color: #fff;
+    border-color: #fff;
+}
+.manu .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400px;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 20px;
+}
+.manu .navbar-light .navbar-nav .nav-link:hover{
+    background: url("../img/Prostokąt\ 2.png") center bottom no-repeat;
+}
+.manu .navbar-light .navbar-nav .nav-link.active{
+    background: url("../img/Prostokąt\ 2.png") center bottom no-repeat;
+}
+/*****Header section end*****/
+/*****banner coad stard****/
+.banner{
+    width: 100%;
+    padding: 100px 0px 90px;
+}
+.banner h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 3px;
+    color: #2A8BD6 ;
+}
+.banner h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 550;
+    letter-spacing:1px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#999;
+    margin-bottom: 35px;
+}
+.inner-btn{
+    width:100%;
+    padding:40px 0px 0px
+}
+.ineer-btn .btn-primary{
+    padding: 20px 20px;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    letter-spacing: 2px;
+    color:#fff;
+    background:#008dd5;
+    border-color: #1972DA ;
+    border-radius: 10px;
+    margin-right: 25px;
+    transition: 1s;
+}
+.ineer-btn .btn-info{
+    padding:20px 20px;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    letter-spacing: 2px;
+    color:#fff;
+    background:#008dd5;
+    border-color: #1972DA ;
+    border-radius: 10px;
+    margin-right: 25px;
+    transition: 1s;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+    color: #fff;
+    background: transparent;
+    border-color: #008ed6;
+}
+/*****banner coad eand****/
+/****feature section start****/
+.feature-sectoun{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0px;
+}
+.feature-sectoun .title{
+    text-align: center;
+}
+.inner-feauter{
+    width: 100%;
+    padding: 35px 25px;
+    text-align: center;
+}
+.inner-feauter .one{
+    width: 280px;
+    margin-bottom: 100px;
+    line-height: 1.2;
+}
+.inner-feauter .icon{
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    border-radius: 100%;
+    margin: 0px auto 25px;
+    border: 1px solid #999;
+}
+/****feature section end****/
+/*aboutlong section start*/
+.aboutlong-section{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid #eee;
+}
+.aboutlong-section .title{
+    margin-top: 40px;
+}
+
+.aboutlong-section .title h2{
+    font-size: 40px;
+}
+.aboutlong-section p{
+    font-size: 14px;
+    color: #999;
+}
+.icon-list{
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 25px 0px 0px;
+}
+.icon-list li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 0px;
+    padding: 10px;
+}
+.icon-list li .fa{
+    width: 35px;
+    font-size: 30px;
+    margin: 0px 15px;
+    color: #2283C6;
+}
+/****aboutlong section end***/
+/**anout short section start**/
+.about-short {
+    width: 100%;
+    padding: 60px 0px;
+    background: #f2f2f2;
+}
+.about-short p {
+    font-size: 14px;
+    color: #999;
+}
+.about-short .title{
+    margin: 65px 0px 0px;
+}
+.about-short h2{
+    font-size: 30px;
+}
+.about-short p{
+    font-size: 16px;
+    color: #999;
+}
+/**about short sectoun end**/
+/**tastimonials section start**/
+.Testimonials-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../img/bgcarousel.png") center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.Testimonials-section .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Testimonials-section .title h2{
+    color: #f2f2f2;
+}
+.Testimonials-section .owl-theme .item h4{
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.Testimonials-section .owl-theme .item .round{
+    width: 75px;
+    height: 75px;
+}
+.Testimonials-section .owl-theme .item h5{
+    font-size: 16px;
+    line-height: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.Testimonials-section .owl-theme .item p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+/**tastimonials section end**/
+/**see sectiion start*/
+.see-section{
+    width: 100%;
+    padding: 48px 0px;
+    background-color: #325269;
+
+} 
+.see-section h2{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: #fff;
+    margin-top: 15px;
+}
+.see-section h2 span{
+    font-weight: 700;
+}
+.see-section .ineer-btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.see-section .inner-btn .btn-primary{
+   
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #f2f2f2;
+    background: #008ed6;
+    border-radius: 10px;
+    
+    transition: 3s;
+}
+.see-section .inner-btn .btn-primary:hover, .see-section .inner-btn .btn-primary:focus{
+    color: brown;
+    background: transparent;
+    border-color: thistle;
+}
+/**see sectiion end*/
+/**price sesction start**/
+.pricing-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.pricing-section .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing-section .price-box{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    border: 1px solid #008dd5;
+    border-radius: 10px;
+    text-align: center;
+}
+.pricing-section .price-box .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border: 1px solid #008dd5;
+    text-align: center;
+}
+.price-box .price-head h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0px;
+    transition: 3s;
+}
+.price-box .prise-iner{
+    width: 100%;
+    padding: 30px 0px;
+    border: 1px solid #008dd5;
+    text-align: center;
+}
+.price-box .prise-iner h2{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0px;
+    transition: 3s;
+}
+.price-box .prise-iner h2 sup{
+    top: -0.4em;
+    font-size: 30px;
+    font-weight: 500;
+}
+.price-box .prise-iner p{
+    font-size: 20px;
+    color: #999;
+    margin: -6px 0px 0px;
+}
+.price-contant{
+    width: 100%;
+    padding: 30px;
+}
+.price-contant p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #999;
+    margin-bottom: 30px;
+}
+.price-contant p a{
+    font-size: 20px;
+    color: #008dd5;
+}
+.price-contant .btn-info{
+    padding: 10px 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 3s;
+}
+.price-box:hover .price-head h2{
+    color: #2E87A6;
+}
+.price-box:hover .prise-iner{
+    background-color: #2E87A6;
+    color: azure;
+}
+.price-box:hover .prise-iner h2{
+    color: azure;
+}
+.price-box:hover .price-contant .btn-info{
+    background: #2E87A6;
+    color: azure;
+}
+/**price sesction start**/
+/***contac us section start*****/
+.contac-us{
+    width: 100%;
+    padding: 80px 0px;
+    background-color:#DFEBF0;
+}
+.contac-us .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contac-us .info{
+    width: 100%;
+    text-align: center;
+}
+.contac-us .info .fa{
+    font-size: 40px;
+    color: #2E87A6;
+    margin: 10px 0px;
+}
+.contac-us .info p{
+    font-size: 15px;
+    color: #999;
+}
+/***contac us section end*****/
+/**from section start*/
+.main-form{
+    width: 100%;
+    padding: 40px 60px 40px;
+    margin-top: 40px;
+    margin-bottom: -150px;
+    background-color: #102439;
+    position: relative;
+    z-index: 1;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.text-right{
+    text-align: right;
+}
+.main-form .btn-primary{
+    padding: 5px 40px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 3px;
+    transition: 3s;
+}
+.main-form .btn-primary:hover{
+    background-color: #95BFEC ;
+}
+/**from section start*/
+/**from section start*/
+.footer-section{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #0D1927;
+}
+.footer-section .icon{
+    width: 100%;
+    padding: 40px 10px 0px;
+    text-align: center;
+
+}
+.footer-section .icon li{
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    color: white;
+    display: inline-block;
+}
+.footer-section .icon p{
+    font-size: 20px;
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+/**from section end*/
+/****code end****/
+/**************************************************
+         responsciv meadia quari coad start
+**************************************************/
+/*****most of the mobile phone coad start******/
+@media ( min-width: 320px) and ( max-width: 480px) {
+/**code start**/
+.manu .navbar-light .navbar-nav .nav-link.active {
+    background: url(../img/Prostokąt2.png) left bottom no-repeat;
+    
+}
+
+/**code end**/
+}
+/*****most of the mobile phone and low rasulation tabled coad start******/
+@media ( min-width: 481px) and ( max-width: 767px) {
+    /**code start**/
+    
+    
+    /**code end**/
+}
+/*****most of the tabled  phhone mini-notbook coad start******/
+@media ( min-width: 768px) and ( max-width: 992px) {
+    /**code start**/
+    
+    
+    /**code end**/
+}
